@@ -1,0 +1,22 @@
+body {
+    margin: 10px;
+}
+
+
+/* #products p {
+    color: orange;
+} */
+
+#products > p {
+    color: orange;
+}
+
+#products + p {
+    color: red;
+}
+
+#products ~ p {
+    color: purple;
+}
+
+/* Relational selectors are fragile, om;y use when you are certain about the position of these elements */
