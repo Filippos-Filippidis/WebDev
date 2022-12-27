@@ -1,0 +1,14 @@
+#products {
+    color: orange;
+
+}
+
+.product {
+    color: red;
+}
+
+a[target] {
+    color: purple;
+}
+
+/* https://www.w3schools.com/cssref/css_selectors.php */
