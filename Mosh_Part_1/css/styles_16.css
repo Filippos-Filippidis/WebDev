@@ -1,0 +1,55 @@
+body {
+    margin: 10px;
+}
+
+/* Pseudo-class Selectors */
+/* The following applies to the first element */
+/* article :first-child {
+    font-size: 140;
+    font-style: italic;
+} */
+
+/* The following applies to the first of elements of differen types */
+/* article :first-of-type {
+    font-size: 140;
+    font-style: italic;
+} */
+
+/* The following will only apply to the first p */
+article p:first-of-type {
+    font-size: 140;
+    font-style: italic;
+}
+
+/* The following will only apply to the last p */
+article p:last-of-type {
+    font-size: 140;
+    font-weight: bold;
+}
+
+/* The following will only apply to the last p BUT its fragile */
+/* article p:last-child {
+    font-size: 140;
+    font-style: bold;
+} */
+
+ul li:nth-child(odd) {
+    color: deeppink;
+}
+
+ul li:nth-child(even) {
+    color: green;
+}
+
+/* Select every 3rd item */
+/* ul li:nth-child(3n) {
+    color: green;
+} */
+
+a:visited, a:link {
+    color: dodgerblue;
+}
+
+a:hover, a:focus {
+    color:deeppink;
+}
