@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+/* Inheritance */
+/* Unless explicitly specified as below values will follow parent rules  */
+p {
+    color: dodgerblue;
+    border: 1px solid black;
+}
+
+strong {
+    color: initial;
+    border:inherit;
+}
