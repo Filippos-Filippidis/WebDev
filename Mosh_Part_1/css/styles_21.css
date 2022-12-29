@@ -1,0 +1,36 @@
+/* Gradients */
+/* Gradient Generator */
+/* https://cssgradient.io */
+
+/* Simple */
+.box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(dodgerblue, yellow);
+}
+
+/* Custom */
+/* to bottom right / 45deg */
+
+.box-c{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, dodgerblue, yellow);
+}
+
+/* Custom */
+
+.box-d{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+
+/* Radial */
+/* circle / circle at top left */
+
+.box-r{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(dodgerblue, yellow);
+}
