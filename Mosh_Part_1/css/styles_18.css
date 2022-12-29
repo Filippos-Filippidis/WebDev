@@ -1,0 +1,26 @@
+/* Selector Specificity */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+
+/* When you have two selectors with equal weight the last rule will be used */
+/* Specificity Selectors [0,0,0] */
+/* [AVOID] You can use the !important keyword to over-ride but its messy! */
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+.highlight {
+    color:deeppink;
+}
+
+#products {
+    color:green;
+}
+
+.highlight#products {
+    color:brown;
+}
