@@ -1,0 +1,24 @@
+/* Colors */
+
+/* RGB */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(230, 205, 16, 0.5);
+}
+
+/* Hex */
+
+.box-rgb{
+    width: 200px;
+    height: 200px;
+    background-color: #e6cd10;
+}
+
+/* HSL */
+
+.box-HSL{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(6306,65%,77%, 0.75);
+}
