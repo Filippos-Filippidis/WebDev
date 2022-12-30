@@ -1,0 +1,13 @@
+p {
+    /* trbl - top / right/ bottom / left */
+    /* padding: 10px 20px 10px 20px; */
+    /* padding: 10px 20px; /* vertical horizontal */
+    /* border: 5px solid gold; */
+
+    margin: 20px;
+    border: 0px;
+
+    /* Use margin property to separate elements */
+    /* Use padding property to add space between the border and the padding space of the element */
+    
+}
