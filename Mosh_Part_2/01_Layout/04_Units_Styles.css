@@ -1,0 +1,41 @@
+body {
+    margin: 10px;
+    /* 62.5% * 16px = 10px */
+    font-size: 62%px;
+}
+
+/* Using pixels */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid orange;
+} */
+
+/* Using % - Means the % of the parent object */
+/* .box{
+    width: 50%; half of the page
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid orange;
+} */
+
+/* with relative units we can make more adjustable layout and scalable websites */
+
+/* Viewport Units */
+/* .box{
+    width: 50vw;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+} */
+
+/* To adjust based on font size use em. If you dont have an explicit font size */
+/* to use the root element and default font size (which is 16px) use rem */
+
+.box{
+    width: 15rem;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
