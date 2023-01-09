@@ -1,0 +1,74 @@
+body {
+    margin: 20px;
+}
+
+.boxes {
+    border: 6px solid lightgrey;
+    position: relative;
+}
+
+.box {
+    width: 15rem;
+    height: 15rem;
+}
+
+.box-one{
+    background-color: red;
+}
+
+/* relative positioning (to its normal position) */
+
+.box-two{
+    background-color: green;
+    /* When positioning an element with absolute */
+    position: relative;
+    right: -10rem;
+    bottom: 3rem;
+    /* Send to back */
+    z-index: -1; 
+}
+.box-three{
+    background-color: blue;
+}
+
+.box-four{
+    background-color: red;
+}
+
+/* Absolute positioning ( relative to its container) */
+/* from the parents point of view the element is removed from the normal flow of the page. As if it doesnt exist */
+
+.box-five{
+    background-color: green;
+    /* When positioning an element with absolute */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* Send to back */
+    z-index: -1; 
+}
+.box-six{
+    background-color: blue;
+}
+
+.box-seven{
+    background-color: red;
+}
+
+/* Absolute positioning ( relative to its container) */
+/* from the parents point of view the element is removed from the normal flow of the page. As if it doesnt exist */
+
+.box-eight{
+    background-color: green;
+    /* When positioning an element with absolute */
+    position: fixed;
+    top: 3rem;
+    left: 2rem;
+    right: 5rem;
+    width: auto;
+    /* Send to back */
+    z-index: -1; 
+}
+.box-nine{
+    background-color: blue;
+}
