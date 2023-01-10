@@ -1,0 +1,128 @@
+body {
+    margin: 10px;
+
+    /* DIRECTION */
+}
+.container {
+
+    border: 3px solid lightgrey;
+}
+
+.container1 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+/* ALIGNMENT */
+/* justify-content (along the main axis) */
+/* align-items (along the cross-axis) */
+
+.container3 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+
+/* align-content is used only when there are multiple lines in our flexbox. Example below */
+.container4 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 50vh;
+}
+
+.container5 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+
+.box-one {
+    align-self: flex-start;
+}
+
+/* Sizing items */
+/* flex-basis (the initial size of a flex item) */
+/* flex-grow (the growth factor) */
+/* flex-shrink ( the shrink factor) */
+/* flex */
+
+.boxA {
+    /* flex-basis overides the flec direction units. in this case the width */
+    flex-basis: 10rem;
+    /* width: 5rem; */
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+.box-two {
+    flex-basis: 5rem;
+}
+
+.container6 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+
+/* Last Example */
+
+.boxB {
+    /* flex-basis overides the flec direction units. in this case the width */
+    flex-basis: 5rem;
+    /* width: 5rem; */
+    flex-grow: 1;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+.box-three {
+    flex-grow: 2;
+}
+
+.container7 {
+
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+
+/* flex-shrink is the opposite of flex-grow */
+/* when using flex you can supply 3 values such  flex: 1 1 15rem in which the format is flex: grow shrink flex-basis*/
