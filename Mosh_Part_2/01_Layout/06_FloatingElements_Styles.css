@@ -1,0 +1,22 @@
+body {
+
+    margin: 10px;
+}
+/* NOTE - parent elements dont see floated elements!! These will be ignored */
+/* To solve this you can use a div with a clear class */
+/* Better solution is to use sudo elements as shown below */
+
+/* DONT USE FLOATS- instead go for flexbox */
+
+.avatar {
+    /* REM - with relative units the image will scale according to the font size */
+    width: 5rem; 
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+/* Clear Floats */
+.clear {
+    clear:both;
+}
