@@ -1,0 +1,7 @@
+/* First Item is hidden and second takes its place */
+.first {
+    /* display: none; */
+    visibility:hidden;
+}
+
+/* With visibility you can hide without the layout adjustment */
