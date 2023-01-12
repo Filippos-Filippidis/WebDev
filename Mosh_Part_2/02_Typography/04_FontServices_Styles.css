@@ -1,0 +1,42 @@
+/* use woff to compress the font files */
+/*  always the code below at the top to register the fonts! */
+@font-face {
+    font-family: "opensans";
+    src: url('/Mosh_Part_2/02_Typography/fonts/opens-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('/Mosh_Part_2/02_Typography/fonts/opens-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url('/Mosh_Part_2/02_Typography/fonts/opens-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('/Mosh_Part_2/02_Typography/fonts/opens-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* 04 Flash of Unstyled Text */
+    /* fallback font will be used after a certain time */
+    font-display: fallback;
+    /* font-display: optional - this will store info on users machine and use available data after it has been downloaded*/
+}
+
+body {
+    margin: 10px;
+    /* By adding the font type here all other elements will inherit it*/
+    /* Font Stack. Browser looks at what is available and picks one from stack */
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    
+    /* font-weight: bold; */
+    font-size: 1rem;
+    color: #000;
+}
+
+h1{
+    font-family: "Roboto";
+    font-weight: bold;
+}
