@@ -1,0 +1,48 @@
+html {
+    /* 62.5% of 16px = 10px */
+    /* font-size: 100%; */
+    /* or */
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* For font use rem units which are relative - 1 x font size of the root element, the html, which by default is 16px */
+    font-size: 2rem;
+    /* If you dont add units to the line-height property then the value given will act as a multiplier keeping the look and feel the same */
+    line-height: 1;
+    /* Use px units for horizontal letter spacing - take note of ch unit used below */
+    letter-spacing: 5px;
+    direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto;
+}
+
+h1{
+    margin: 10rem 0 1rem;
+    font-size: 5rem;
+}
+
+p + p {
+    /* Units with characters */
+    width: 50ch;
+    text-align: left;
+    /* When using text-indent you can do as above p+p for the effect to be on the second paragraph */
+    text-indent: 1rem;
+    border: 3px solid gold;
+    text-decoration: underline;
+    text-transform:capitalize;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.c2 {
+    width: 50ch;
+    column-count: 2;
+    column-gap: 10rem;
+    column-rule: 3px dotted#999;
+}
