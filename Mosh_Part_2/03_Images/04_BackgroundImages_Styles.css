@@ -1,0 +1,14 @@
+body {
+    margin: 10px;
+    /* background: url(/Mosh_Part_2/03_Images/Images/bg-paper@2x.jpg); */
+    background: url(/Mosh_Part_2/03_Images/Images/bg-sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    /* background-size: 200px 200px; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x; */
+    /* background-position: 100px 100px; */
+    /* background-position: 100% 100px; */
+}
