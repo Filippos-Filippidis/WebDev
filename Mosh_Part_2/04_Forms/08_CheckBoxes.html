@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Mosh_Part_1/css/normalize.css">
+    <link rel="stylesheet" href="/Mosh_Part_2/04_Forms/06_DataLists_Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <form>
+        <!-- check formspree for easy backend -->
+        <div>
+            <input type="checkbox" id="front-end">
+            <label class="label-inline" for="front-end">Front-end</label>
+        </div>
+        <div>
+            <input type="checkbox" id="back-end" checked>
+            <label class="label-inline" for="back-end">Back-end</label>
+        </div>
+        <div>
+            <input type="radio" name="membership" id="silver" checked>
+            <label for="silver" class="label-inline">Silver</label>
+        </div>
+        <div>
+            <input type="radio" name="membership" id="gold">
+            <label for="gold" class="label-inline">Gold</label>
+        </div>
+        <div>
+            <input type="range" min="0" max="100">
+        </div>
+        <div><input type="file" multiple accept=".jpg, .png, image/*, video/*, audio/*"></div>
+        <div>
+            <!-- Instead of fieldset you can use a section -->
+            <fieldset>
+                <!-- Instead of a legend you can use an h2 element -->
+                <legend>Billing Address</legend>
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+            </fieldset>
+            <fieldset>
+                <legend>Payment</legend>
+                <input type="text" name="" id="">
+            </fieldset>
+        </div>
+        <div>
+            <input type="hidden" name="course-id" value="1234">
+        </div>
+        <div>
+            <input type="text" required minlength="3" maxlength="10">
+            <!-- <input type="email"> -->
+            <!-- <input type="number"> -->
+            <button type="submit">SUBMIT</button>
+        </div>
+        <div>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <!-- Both are valid -->
+            <!-- <input type="submit" value="Submit"> -->
+            <!-- Button is preferred -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
