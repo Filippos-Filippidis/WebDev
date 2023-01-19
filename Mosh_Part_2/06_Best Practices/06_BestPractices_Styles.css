@@ -1,0 +1,23 @@
+/* Global Variables */
+
+:root {
+    --primary-color: #ffdd36;
+    --border-size: 2px;
+    --border-radius:10px;
+}
+
+/* Use global variables */
+
+.one {
+    background: var(--color-primary);
+}
+
+.two {
+    background: var(--color-primary);
+}
+
+/* Object-Oriented CSS */
+/* Separate container from content */
+/* Separate structure from skin */
+
+/* BEM - Block Element Modifier - Naming Convention */
