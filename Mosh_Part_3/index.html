@@ -13,32 +13,26 @@
 </head>
 <body>
     <!-- h${Heading $}*3 and then press tab -->
-    <div class="collapsible collapsible--expanded">
-        <header class="collapsible__header">
-            <h2 class="collapsible__heading">Item 1</h2>
-            <span class="icon-container">
-                <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg>
-            </span>
+    <section class="block container">
+        <header class="block__header">
+            <h2 class="block__heading">Heading</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, asperiores.</p>
+            <div style="width: 30%; padding: 4rem;;">
+                <div class="card card--secondary">
+                    <header class="card__header">Card Title</header>
+                    <div class="card__body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, natus.
+                    </div>
+                </div>
+            </div>
         </header>
-        <div class="collapsible__content">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at!
+    </section>
+    <section class="block block--dark block--skewed-left">
+        <div class="block__header container">
+            <h2 class="block__heading">Heading</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, asperiores.</p>
         </div>
-    </div>
-    <div class="collapsible collapsible--expanded">
-        <header class="collapsible__header">
-            <h2 class="collapsible__heading">Item 1</h2>
-            <span class="icon-container">
-                <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg>
-            </span>
-        </header>
-        <div class="collapsible__content">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at!
-        </div>
-    </div>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
